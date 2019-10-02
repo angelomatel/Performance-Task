@@ -55,7 +55,7 @@ div {
     font-size: 48px;
 }
 
-input[type="button"] {
+#button{
     background: #44aa50;
     color: white;
 
@@ -72,8 +72,20 @@ p {
 .big {font-size: 28px;}
 .small {font-size: 14px;}
 
+#container > #wrapper > form > p {
+    padding: 0 30 10;
+    text-align: left;
+}
+
+#parent {
+    padding: 0 30px;
+}
+
 #child {
     display: inline-block;
+    width: 49%;
+    text-align: left;
+    zoom: 1;
 }
 
 table {
