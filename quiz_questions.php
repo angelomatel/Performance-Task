@@ -11,16 +11,27 @@
 <div id="container">
     <div id="wrapper">
         <form action="quiz_results.php" method="POST">
-        <p>#. Insert Question Here</p>
+        <p class="big">#. Insert Question Here</p>
             <div>
-                <div id="child">A</div>
-                <div id="child">B</div>
+                <div id="child">AAAAAAAAAAAA</div>
+                <div id="child">BBBBBBBBBBBB</div>
             </div>
             <div>
-                <div id="child">C</div>
-                <div id="child">D</div>
+                <div id="child">CCCCCCCCCCCC</div>
+                <div id="child">DDDDDDDDDDDD</div>
             </div>
         
+        <br><br>
+
+        <p class="big">#. Insert Question Here</p>
+            <div>
+                <div id="child">AAAAAAAAAAAA</div>
+                <div id="child">BBBBBBBBBBBB</div>
+            </div>
+            <div>
+                <div id="child">CCCCCCCCCCCC</div>
+                <div id="child">DDDDDDDDDDDD</div>
+            </div>
         </form>
     </div>
 </div>

@@ -1,0 +1,44 @@
+1. What do you use when commenting SINGLE lines in PHP?
+// or #
+
+2. What is the data type that are a sequence of characters?
+String
+
+3. What is the data type that only consists of whole numbers?
+Integer
+
+4. What is the data type that only consists of numbers with decimal point?
+Float
+
+5. What is the data type that consists of multiple values?
+Array
+
+6. Which of the following functions should you use to get the length of the string "Hello World"?
+strlen("Hello World");
+
+7. Which of the following functions should you use to replace the word "Hello" in "Hello World" with "Hi" to output "Hi World"?
+str_replace("Hello", "Hi", "Hello World");
+
+8. Which of the following functions should you use to reverse the string "Hello World"?
+strrev("Hello World");
+
+9. Which of the following functions should you use to get the number of words in the string "Hello World"?
+str_word_count("Hello world");
+
+10. How would you define a constant named STRING with the value of "Hello World" that is case-insensitive using the define() function?
+define("STRING", "Hello World", true);
+
+11. Provided that $x is 2 and $y is 2.0, which of the following if() functions would be true?
+if($x == $y)
+
+12. Provided that $x is 2 and $y is 2.0, which if the following if() functions would be false?
+if($x <> $y)
+
+13. Provided that $x and $y are true, and $z is false, which of the following if() functions would be true?
+if(($x && $y) || $z)
+
+14. Provided that $x and $y are false, and $z is true, which of the following if() functions would be true?
+if(($x && $y) || $z)
+
+15. What does PHP stand for?
+PHP: Hypertext Preprocessor
