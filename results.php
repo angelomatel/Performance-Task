@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="./assets/style.css">
+    <title>The Quiz Results</title>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
         <p class="big">You got: <br> <?php echo "$score/15" ?>!</p>
         <br><br>
         <p class="small">You started this quiz at <?php echo $_SESSION["start_time"] ?></p>
-        <p class="small"><a href="quiz_homepage.php">Click here to go home</a></p>
+        <p class="small"><a href="homepage.php">Click here to go home</a></p>
 
         
     </div>

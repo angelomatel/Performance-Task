@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="./assets/style.css">
+    <title>The Quiz Questions</title>
 </head>
 
 <?php date_default_timezone_set("Asia/Manila"); // Set timezone to Philippine Time
@@ -16,7 +17,7 @@ $_SESSION["start_time"] = date("M d,Y H:i:s");
 
 <div id="container">
     <div id="wrapper">
-        <form action="quiz_results.php" method="POST">
+        <form action="results.php" method="POST">
         <p>1. What do you use when commenting SINGLE lines in PHP?</p>
             <div id="parent">
                 <div id="child"><input type="radio" name="Q1" value="A">A. !- or !+</div>
