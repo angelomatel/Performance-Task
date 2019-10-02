@@ -5,12 +5,13 @@
 
 <body>
 <div id="header">
-    <span class="title">The Quiz</span>
+    <span class="title">The Quiz Results</span>
 </div>
 
 <div id="container">
     <div id="wrapper">
-        <input type="button" value="Thing">
+        <form>
+        </form>
     </div>
 </div>
 </body>
