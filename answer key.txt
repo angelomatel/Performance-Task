@@ -35,7 +35,7 @@ if($x == $y)
 if($x <> $y)
 
 13. Provided that $x and $y are true, and $z is false, which of the following if() functions would be true?
-if(($x && $y) || $z)
+if(($x || $y) && $z)
 
 14. Provided that $x and $y are false, and $z is true, which of the following if() functions would be true?
 if(($x && $y) || $z)
